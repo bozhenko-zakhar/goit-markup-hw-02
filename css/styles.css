@@ -38,13 +38,15 @@ button {
 	color: #2e2f42;
 	text-decoration: none;
 }
+.contacts {
+	font-style: normal;
+}
 
 .contacts-link {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 	text-decoration: none;
-	font-style: normal	;
 }
 
 .nav-link:hover,
@@ -75,7 +77,8 @@ button {
 	background: #4d5ae5;
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
 	background-color: #404bbf;
 }
 
@@ -97,6 +100,7 @@ button {
 }
 
 .team-heading, .portfolio-heading {
+	text-transform: capitalize;
 	font-size: 36px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
